@@ -1,0 +1,50 @@
+.main {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  box-sizing: inherit;
+  position: relative;
+  flex-direction: column;
+  gap: 150px;
+  min-width: 0;
+}
+
+.mid {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  gap: 150px;
+  align-items: center;
+}
+button {
+  padding: 10px 20px;
+  background-color: rgb(0, 162, 255);
+  text-transform: capitalize;
+  width: fit-content;
+  height: fit-content;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+}
+span {
+  background-color: orange;
+  display: block;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 6px;
+}
+h3 {
+  background-color: yellow;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 6px;
+  align-self: center;
+}
